@@ -1,0 +1,57 @@
+.quote{
+    background-color: white;
+    width:450px;
+    margin:8% auto auto auto;
+    border-radius: 5px;
+    padding:40px 50px;
+}
+.quote-buttons{
+    margin:auto;
+    display:block;
+}
+.icon{
+    width: 30px;
+    height: 25px;
+}
+#quote-text{
+    color: gold;
+    font-size: 1.75em;
+}
+#quote-author{
+    clear:both;
+    padding-top:20px;
+    color: gold;
+    font-size: 1em;
+}
+
+.quot-button{
+    height:38px;
+    border:none;
+    border-radius:3px;
+    color:#fff;
+    background: gold;
+    outline:none;
+    font-size:0.85em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top:30px;
+    font-size:1em;
+    opacity:1;
+    cursor:pointer;
+}
+
+#qq-button,#vx-btn{
+    float: left;
+    width:40px;
+    margin-right: 5px;
+    text-align: center;
+}
+#newquote-button{
+    width:80px;
+    float: right;
+    text-align: center;
+}
+
+body{
+    background-color: gold;
+}

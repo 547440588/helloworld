@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新增</title>
+    <link rel="stylesheet" href="dist/css/jquery.mobile-1.4.5.css">
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header">
+        <h1>部门档案</h1>
+    </div>
+    <div role="main" class="ui-content">
+    <form id="addform">
+        <div class="ui-field-contain">
+            <label for="doc_code">部门编码：</label>
+            <input type="text" id="doc_code">
+        </div>
+        <div class="ui-field-contain">
+            <label for="doc_name">部门名称：</label>
+            <input type="text" id="doc_name">
+        </div>
+        <div class="ui-field-contain">
+            <label for="doc_memo">说明：</label>
+            <input type="text" id="doc_memo">
+        </div>
+        <div class="ui-field-contain">
+            <label for="doc_date">日期：</label>
+            <input type="date" id="doc_date">
+        </div>
+        <button class="ui-shadow ui-btn ui-btn-corner-all">提交</button>
+    </form>
+        </div>
+    <div data-role="footer">
+        <h4>My App</h4>
+    </div>
+</div>
+</body>
+</html>

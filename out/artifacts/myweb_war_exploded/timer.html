@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link href="test/css/timer.css" rel="stylesheet">
+</head>
+<body>
+<script src="dist/js/jquery-1.7.1.min.js"></script>
+<script src="test/js/timer.js"></script>
+<main>
+<div class="t-container">
+    <h1>计时器</h1>
+    <div class="t-contral">
+        <div class="t-contral-break">
+            <p>break length</p>
+            <button value="breaksub">-</button><span class="t-time" id="breaktime">5</span><button value="breakadd">+</button>
+        </div>
+        <div class="t-contral-session">
+            <p>session length</p>
+            <button value="sessionsub">-</button><span class="t-time" id="sessiontime">5</span><button value="sessionadd">+</button>
+        </div>
+    </div>
+    <div class="timer">
+        <p>Session</p>
+        <p id="timeleft">5</p>
+        <span class="fill"></span>
+    </div>
+</div>
+</main>
+</body>
+</html>
