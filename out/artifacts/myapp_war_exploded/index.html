@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-page template</title>
+  <!--
+  <link rel="stylesheet" href="dist/css/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="../_assets/css/jqm-demos.css">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <script src="../js/jquery.js"></script>
+  <script src="../_assets/js/index.js"></script>
+  <script src="../js/jquery.mobile-1.4.5.min.js"></script>
+  -->
+
+  <link rel="stylesheet" href="dist/css/jquery.mobile-1.4.5.css">
+  <script src="dist/js/jquery.min.js"></script>
+  <script src="dist/js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+  <div data-role="header">
+    <h1>部门档案</h1>
+  </div><!-- /header -->
+
+
+  <div role="main" class="ui-content">
+    <!--
+    <div style="margin: auto ;text-align: center">
+      <a href="#" class="ui-btn ui-btn-inline">查询</a>
+      <a href="#" class="ui-btn ui-btn-inline">新增</a>
+    </div>
+    -->
+
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><a href="#" class="ui-btn ui-btn-corner-all">查询</a></div>
+      <div class="ui-block-b"><a href="docadd.html" class="ui-btn ui-btn-corner-all">新增</a></div>
+    </div>
+    <div  class="ui-grid-solo">
+      <div class="ui-block-a">
+        <table data-role="table" class="ui-responsive table-stroke" data-mode="reflow " id="doc_listtable">
+          <thead>
+          <th data-priority="1">序号</th>
+          <th data-priority="2">编码</th>
+          <th data-priority="3">名称</th>
+          <!--
+          <th data-priority="4">说明</th>
+          <th data-priority="5">日期</th>
+          -->
+          </thead>
+          <tbody>
+          <tr>
+            <td>1</td>
+            <td>0001</td>
+            <td>测试</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>0002</td>
+            <td>测试2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>0003</td>
+            <td>测试3</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>0004</td>
+            <td>测试4</td>
+          </tr>
+            <!--
+            <td>测试</td>
+            <td>2016-03-01</td>
+            -->
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div><!-- /content -->
+
+  <div data-role="footer">
+    <h4>My App</h4>
+  </div><!-- /footer -->
+
+</div><!-- /page -->
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+html, body, main {
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.t-container{
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    outline: none;
+}
+.t-time{
+    font-size: 2.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.t-contral{
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.t-contral-break,.t-contral-session{
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.timer{
+    color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid green;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4em;
+    cursor: pointer;
+
+
+}
+
+.fill {
+    content: '';
+    height: 50%;
+    position: absolute;
+    background: green;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
